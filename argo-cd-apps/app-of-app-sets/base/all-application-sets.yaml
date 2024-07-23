@@ -6,8 +6,8 @@ spec:
   project: default
   source:
     path: argo-cd-apps/environments/staging
-    repoURL: https://github.com/konflux-ci/infra-deployments.git
-    targetRevision: main
+    repoURL: https://github.com/gbenhaim/konflux-ci-infra-deployments
+    targetRevision: argo-preview
   destination:
     namespace: argocd
     server: https://kubernetes.default.svc
